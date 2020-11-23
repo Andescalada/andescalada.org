@@ -3,12 +3,18 @@
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
-$kaldi-red-invert: #fff
+$kaldi-red-invert: #000
+$andescalada-purple-invert: #fff
+$andescalada-purple: #413d76
+$andescalada-orange: #c75f3d
+$andescalada-mustard: #e7b061
+$andescalada-cyan: #8cbae7
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $andescalada-purple
+$primary-invert: $andescalada-purple-invert
 $body-color: #333
 $black: #2b2523
+
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -105,11 +111,9 @@ $menu-label-color: $white-ter
 .social a
     padding: .5em .5em .3em .5em
     border-radius: 1em
-    background-color: $white-ter
     margin: .5em
     width: 1em
     height: 1em
-    vertical-align: middle
     display: inline
 
 // blog roll
@@ -122,9 +126,30 @@ $menu-label-color: $white-ter
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
-
 @import "~bulma"
 
+.fading
+  /* Fallback: Set a background color. */
+  background-color: red
+  /* Create the gradient. */
+  background-image: linear-gradient(311.55deg, #413D76 28.26%, #C75F3D 70.89%)
+  /* Set the background size and repeat properties. */
+  background-size: 100%
+  background-repeat: repeat
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  -moz-background-clip: text
+  -moz-text-fill-color: transparent
+
+.bg-img-hero
+  background-image: url(../img/home_desktop.jpg)
+  background-position: center center
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-size: cover
+  background-color: #999
 
 // responsiveness
 +tablet-only

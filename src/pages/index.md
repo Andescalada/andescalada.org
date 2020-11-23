@@ -1,9 +1,18 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Andescalada
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: ANDESCALADA
+subheading: Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes.
+lastactivities:
+  title: Últimas Novedades
+  activities:
+    - title: Documentación en Melosas
+      summary: Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes.
+    - title: Documentación en Melosas
+      summary: Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes.
+    - title: Documentación en Melosas
+      summary: Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes.
 mainpitch:
   title: Why Kaldi
   description: >
