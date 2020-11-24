@@ -32,7 +32,9 @@ const Hero = () => {
                 <div className="modal is-flex">
                   <div className="modal-background"></div>
                   <div className="modal-content">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/pzcrnifuumk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-responsive">
+                      <iframe src="https://www.youtube.com/embed/pzcrnifuumk" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                   <button onClick={() => setModal(!modal)} className="modal-close is-large" aria-label="close"></button>
                 </div>
