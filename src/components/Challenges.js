@@ -13,7 +13,7 @@ const Challenges = class extends React.Component {
           <div className="container is-max-widescreen">
             <div className="columns">
               <div className="column is-three-fifths">
-                <h2 className="title is-size-2 is-spaced is-uppercase fading">
+                <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading">
                   Líneas de acción
                 </h2>
                 <p className="subtitle is-size-5">

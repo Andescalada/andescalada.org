@@ -6,7 +6,7 @@ const Team = class extends React.Component {
       <section className="hero is-medium is-primary">
         <div className="hero-body">
           <div className="container is-max-desktop has-text-centered">
-            <h2 className="title is-size-2 is-spaced is-uppercase">
+            <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase">
               Equipo
             </h2>
             <p className="subtitle is-size-5">

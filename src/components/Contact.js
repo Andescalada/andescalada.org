@@ -6,7 +6,7 @@ const Contact = class extends React.Component {
       <section className="hero is-medium">
         <div className="hero-body">
           <div className="container is-max-desktop has-text-centered">
-            <h2 className="title is-size-2 is-spaced is-uppercase fading">
+            <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading">
               ¿Quiéres contactarnos?
             </h2>
             <h3 className="subtitle is-size-5">

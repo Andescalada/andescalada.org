@@ -10,7 +10,7 @@ const Why = class extends React.Component {
       <section className="hero is-fullheight-with-navbar is-light">
         <div className="hero-body">
           <div className="container is-max-widescreen has-text-centered">
-            <h2 className="title is-size-2 is-spaced is-uppercase fading">
+            <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading">
               ¿Por qué Andescalada?
             </h2>
             <p className="title is-size-4 pl-6 pr-6">
