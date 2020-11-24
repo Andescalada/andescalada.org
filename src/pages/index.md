@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Andescalada
-image: /img/home-jumbotron.jpg
+image: /img/home_desktop.jpg
 heading: ANDESCALADA
 subheading: Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes.
 lastactivities:

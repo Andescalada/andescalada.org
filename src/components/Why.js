@@ -9,14 +9,14 @@ const Why = class extends React.Component {
     return (
       <section className="hero is-fullheight-with-navbar is-light">
         <div className="hero-body">
-          <div className="container is-max-desktop has-text-centered">
+          <div className="container is-max-widescreen has-text-centered">
             <h2 className="title is-size-2 is-spaced is-uppercase fading">
               ¿Por qué Andescalada?
             </h2>
-            <h3 className="subtitle is-size-4">
-              Soñamos con comunidades que velen por el cuidado, acceso, desarrollo y documentación de los sectores de escalada
-            </h3>
-            <div className="columns is-hidden-mobile">
+            <p className="title is-size-4 pl-6 pr-6">
+              Soñamos con comunidades que velen por el <br />cuidado, acceso, desarrollo y documentación <br />de los sectores de escalada
+            </p>
+            <div className="columns is-hidden-mobile p-6">
               <div className="column">
                 <img src={icono_cuidado} alt="Cuidado" />
                 <h4 className="title is-size-5">Cuidado</h4>

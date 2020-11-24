@@ -10,13 +10,20 @@ const Challenges = class extends React.Component {
     return (
       <section className="hero">
         <div className="hero-body">
-          <div className="container is-widescreen">
-            <h2 className="title is-size-2 is-spaced is-uppercase fading">
-              Líneas de acción
-            </h2>
-            <h4 className="subtitle is-size-4">
-              Nuestro trabajo se divide en tres áreas que, en conjunto, buscan proporcionar un espacio de comunicación y entregar herramientas de gestión a la comunidad escaladora
-            </h4>
+          <div className="container is-max-widescreen">
+            <div className="columns">
+              <div className="column is-three-fifths">
+                <h2 className="title is-size-2 is-spaced is-uppercase fading">
+                  Líneas de acción
+                </h2>
+                <p className="subtitle is-size-5">
+                  Nuestro trabajo se divide en tres áreas que, en conjunto, buscan proporcionar un espacio de comunicación y entregar herramientas de gestión a la comunidad escaladora
+                </p>
+              </div>
+              <div className="column"></div>
+            </div>
+
+
             <div className="columns is-hidden-mobile">
               <div className="column">
                 <div className="card">
@@ -33,21 +40,21 @@ const Challenges = class extends React.Component {
                     >
                       <div className="hero-body">
                         <div className="container">
-                          <h1 className="title">
+                          <h3 className="title is-size-3 is-uppercase secondary-font">
                             Unir
-                          </h1>
-                          <h2 className="subtitle">
-                            Generar vínculos duraderos entre la comunidad local y escaladora
-                          </h2>
+                          </h3>
+                          <p className="subtitle is-size-5">
+                            Generar vínculos duraderos entre la comunidad local y la comunidad escaladora
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="card-content ">
                     <div className="content">
-                      <p className="title is-4 is-spaced">El desafío</p>
-                      <p className="subtitle is-6 is-spaced">A pesar del crecimiento que ha tenido la escalada aun sigue siendo difícil entablar relaciones entre quienes escalan, quienes viven cerca de los sectores y quienes poseen los terrenos.</p>
-                      <p className="title is-4 is-spaced">¿En qué trabajamos?</p>
+                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">El desafío</h4>
+                      <p className="subtitle is-6 is-spaced"> A pesar del crecimiento que ha tenido la escalada aun sigue siendo difícil entablar relaciones entre quienes escalan, quienes viven cerca de los sectores y quienes poseen los terrenos.</p>
+                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">¿En qué trabajamos?</h4>
                       <div className="columns">
                         <div className="column is-one-fifth has-text-centered">
                           <img src={icono_coaliciones} alt="Coaliciones" />
@@ -83,21 +90,21 @@ const Challenges = class extends React.Component {
                     >
                       <div className="hero-body">
                         <div className="container">
-                          <h1 className="title">
+                          <h3 className="title is-size-3 is-uppercase secondary-font">
                             Cuidar
-                          </h1>
-                          <h2 className="subtitle">
+                          </h3>
+                          <p className="subtitle is-size-5">
                             Proteger los ecosistemas y mitigar el impacto creado por la escalada
-                          </h2>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="card-content ">
                     <div className="content">
-                      <p className="title is-4 is-spaced">El desafío</p>
+                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">El desafío</h4>
                       <p className="subtitle is-6 is-spaced">Debemos desarrollar planes de manejo ambiental para los sectores de escalada, para cuidar los ecosistemas y especies endémicas. Esto nos ayudará a cuidarlos de otras actividades con mayor impacto.</p>
-                      <p className="title is-4 is-spaced">¿En qué trabajamos?</p>
+                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">¿En qué trabajamos?</h4>
                       <div className="columns">
                         <div className="column is-one-fifth has-text-centered">
                           <img src={icono_impacto_ambiental} alt="Cuidado del medio ambiente" />
@@ -134,21 +141,21 @@ const Challenges = class extends React.Component {
                     >
                       <div className="hero-body">
                         <div className="container">
-                          <h1 className="title">
+                          <h3 className="title is-size-3 is-uppercase secondary-font">
                             Documentar
-                          </h1>
-                          <h2 className="subtitle">
+                          </h3>
+                          <p className="subtitle is-size-5">
                             Crear un canal para la gestión responsable de sectores de escalada
-                          </h2>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="card-content ">
                     <div className="content">
-                      <p className="title is-4 is-spaced">El desafío</p>
+                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">El desafío</h4>
                       <p className="subtitle is-6 is-spaced">Generar un espacio centralizado para obtener información actualizada de rutas, accesos, acuerdos y grupos trabajando en cada sector.</p>
-                      <p className="title is-4 is-spaced">¿En qué trabajamos?</p>
+                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">¿En qué trabajamos?</h4>
                       <div className="columns">
                         <div className="column is-one-fifth has-text-centered">
                           <img src={icono_app} alt="Aplicación móvil" />

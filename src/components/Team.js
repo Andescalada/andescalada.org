@@ -9,9 +9,9 @@ const Team = class extends React.Component {
             <h2 className="title is-size-2 is-spaced is-uppercase">
               Equipo
             </h2>
-            <h3 className="subtitle is-size-4">
+            <p className="subtitle is-size-5">
               Motivados por el amor a la escalada y al potencial que tiene Chile de desarrollar sectores para la práctica de este deporte, nos reunimos para aportar en la gestión responsable de estos
-            </h3>
+            </p>
           </div>
         </div>
       </section>
