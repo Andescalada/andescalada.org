@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import logo from '../img/logo_svg.svg'
+import logo from '../img/logo_blanco.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -64,21 +64,10 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 Acerca Andescalada
               </Link>
-              <Link className="navbar-item" to="/products">
-                Equipo
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
+
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://facebook.com/andescalada"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -88,7 +77,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://instagram.com/andescalada"
                 target="_blank"
                 rel="noopener noreferrer"
               >

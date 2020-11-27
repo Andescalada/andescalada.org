@@ -24,7 +24,7 @@ const Challenges = class extends React.Component {
             </div>
 
 
-            <div className="columns is-hidden-mobile">
+            <div className="columns">
               <div className="column">
                 <div className="card">
                   <div className="card-image">
