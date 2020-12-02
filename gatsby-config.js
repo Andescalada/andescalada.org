@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Andescalada',
+    title: 'Fundación Andescalada',
     description:
-      'Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes',
+      'Buscamos coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
