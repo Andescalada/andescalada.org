@@ -44,15 +44,14 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
-        <meta property="og:type" content="website">
+
+        <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
-        <meta property="og:description" content={description}>
         <meta property="og:url" content="https://andescalada.org" />
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og_image.jpg`}
         />
-        <meta property="twitter:card" content="summary_large_image">
       </Helmet>
       <Navbar />
       <div>{children}</div>
