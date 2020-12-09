@@ -6,6 +6,8 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -29,8 +31,6 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {

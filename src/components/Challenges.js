@@ -52,9 +52,9 @@ const Challenges = class extends React.Component {
                   </div>
                   <div className="card-content ">
                     <div className="content">
-                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">El desafío</h4>
+                      <h4 className="title secondary-font is-uppercase is-size-4 is-spaced">El desafío</h4>
                       <p className="subtitle is-6 is-spaced"> A pesar del crecimiento que ha tenido la escalada aun sigue siendo difícil entablar relaciones entre quienes escalan, quienes viven cerca de los sectores y quienes poseen los terrenos.</p>
-                      <h4 className="title secondary-font is-uppercase is-4 is-spaced">¿En qué trabajamos?</h4>
+                      <h4 className="title secondary-font is-uppercase is-size-4 is-spaced">¿En qué trabajamos?</h4>
                       <div className="columns">
                         <div className="column is-one-fifth has-text-centered">
                           <img src={icono_coaliciones} alt="Coaliciones" />

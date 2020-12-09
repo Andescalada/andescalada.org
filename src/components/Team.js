@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Team = class extends React.Component {
   render() {
@@ -12,8 +13,9 @@ const Team = class extends React.Component {
             <p className="subtitle is-size-5">
               Motivados por el amor a la escalada y al potencial que tiene Chile de desarrollar sectores para la práctica de este deporte, nos reunimos para aportar en la gestión responsable de estos
             </p>
-            <button class="button is-info mt-4"> <a href="https://instagram.com/andescalada">  Conoce al equipo </a></button>
-
+            <Link className="button is-info mt-4" to="/team">
+              Conoce al equipo
+            </Link>
           </div>
         </div>
       </section>

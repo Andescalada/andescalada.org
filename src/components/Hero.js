@@ -23,10 +23,10 @@ const Hero = () => {
                 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
                 ANDESCALADA
               </h1>
-              <h2
+              <p
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
                 Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes
-              </h2>
+              </p>
               <button onClick={() => setModal(!modal)} class="button is-info  mt-4"> <img src={icono_play} className="pr-2" alt="Play" />  Ver video de Andescalada</button>
               { modal &&
                 <div className="modal is-flex">
