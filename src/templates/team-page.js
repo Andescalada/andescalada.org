@@ -5,6 +5,7 @@ import Members from '../components/Members'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import icono_play from '../img/icono_play.svg'
+import Navbar from '../components/Navbar'
 
 export const TeamPageTemplate = ({
   title,
@@ -15,6 +16,7 @@ export const TeamPageTemplate = ({
   const PageContent = contentComponent || Content
   return (
     <div>
+      <Navbar />
       <section className="section section--gradient">
         <div className="container is-max-widescreen">
             <h1 className="is-sr-only"> {title}</h1>

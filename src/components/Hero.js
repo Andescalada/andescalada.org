@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import icono_play from '../img/icono_play.svg'
 import logo from '../img/logo_blanco.svg'
+import NavbarHome from '../components/NavbarHome'
 
 const Hero = () => {
 
@@ -16,7 +17,9 @@ const Hero = () => {
         backgroundSize: `cover`
       }}
     >
+    <NavbarHome/>
       <div className="hero-body">
+
         <div className="container">
           <div className="columns is-desktop">
             <div className="column">

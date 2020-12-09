@@ -36,18 +36,18 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-fixed-top"
+        className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Andescalada" style={{ height: '20px' }} />
+              <img src={logo} alt="Fundación Andescalada" style={{ height: '20px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`navbar-burger has-text-white burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
@@ -61,13 +61,13 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/">
                 Inicio
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/about">
                 Conoce más
               </Link>
-              <Link className="navbar-item" to="/team">
+              <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/team">
                 Equipo
               </Link>
 

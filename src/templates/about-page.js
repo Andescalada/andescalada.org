@@ -4,12 +4,14 @@ import Challenges from '../components/Challenges'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Navbar from '../components/Navbar'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
+      <Navbar />
       <section className="section section--gradient">
         <div className="container is-max-widescreen">
           <h2 className="title is-size-1 is-size-3-mobile is-spaced is-uppercase fading mt-6 ">

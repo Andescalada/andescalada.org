@@ -67,7 +67,10 @@ const Footer = class extends React.Component {
             </div>
           </div>
         </div>
-
+        <hr className="ml-6 mr-6"/>
+        <div className="container has-background-primary has-text-white-ter has-text-centered pb-4">
+          <div>Los iconos utilizados son hechos por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> en <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+        </div>
       </footer>
     )
   }
