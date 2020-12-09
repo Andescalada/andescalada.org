@@ -22,6 +22,16 @@ $andescalada-orange: #c75f3d
 $andescalada-mustard: #e7b061
 $andescalada-cyan: #8cbae7
 
+$andescalada-purple-light: #9087FF
+$andescalada-orange-light: #ED7149
+$andescalada-mustard-light: #e7b061
+$andescalada-cyan-light: #8cbae7
+
+$andescalada-purple-dark: #413d76
+$andescalada-orange-dark: #8C432B
+$andescalada-mustard-dark: #916F3D
+$andescalada-cyan-dark: #445B70
+
 $primary: $andescalada-purple
 $primary-invert: $andescalada-purple-invert
 $link: $andescalada-orange
@@ -157,10 +167,25 @@ $title-weight: $weight-medium
 
 @import "~bulma"
 
+.bg-orange-light
+  background-color: $andescalada-orange-light
+
+.bg-mustard-light
+  background-color: $andescalada-mustard-light
+
+.bg-cyan-light
+  background-color: $andescalada-cyan-light
+
+.bg-purple-light
+  background-color: $andescalada-purple-light
+
 .button
   border-radius: 0
 
 .hero.is-light .title
+  color: black
+
+.subtitle
   color: black
 
 .secondary-font
@@ -202,6 +227,24 @@ $title-weight: $weight-medium
   position: absolute
   top: 0
   width: 100%
+
+.triangle-up
+  right: 30px
+  position: absolute
+  bottom: 0
+  width: 0
+  height: 0
+  border-left: 25px solid transparent
+  border-right: 25px solid transparent
+
+.triangle-up-orange-light
+  border-bottom: 50px solid $andescalada-orange-light
+
+.triangle-up-mustard-light
+  border-bottom: 50px solid $andescalada-mustard-light
+
+.triangle-up-cyan-light
+  border-bottom: 50px solid $andescalada-cyan-light
 
 // responsiveness
 +tablet-only

@@ -48,12 +48,13 @@ const Challenges = class extends React.Component {
                           </p>
                         </div>
                       </div>
+                      <div class="triangle-up triangle-up-mustard-light mr-3"></div>
                     </div>
                   </div>
-                  <div className="card-content ">
+                  <div className="card-content bg-mustard-light">
                     <div className="content">
                       <h4 className="title secondary-font is-uppercase is-size-4 is-spaced">El desafío</h4>
-                      <p className="subtitle is-6 is-spaced"> A pesar del crecimiento que ha tenido la escalada aun sigue siendo difícil entablar relaciones entre quienes escalan, quienes viven cerca de los sectores y quienes poseen los terrenos.</p>
+                      <p className="subtitle is-6 is-spaced">A pesar del crecimiento que ha tenido la escalada aun sigue siendo difícil entablar relaciones entre quienes escalan, quienes viven cerca de los sectores y quienes poseen los terrenos.</p>
                       <h4 className="title secondary-font is-uppercase is-size-4 is-spaced">¿En qué trabajamos?</h4>
                       <div className="columns">
                         <div className="column is-one-fifth has-text-centered">
@@ -98,9 +99,10 @@ const Challenges = class extends React.Component {
                           </p>
                         </div>
                       </div>
+                      <div class="triangle-up triangle-up-cyan-light mr-3"></div>
                     </div>
                   </div>
-                  <div className="card-content ">
+                  <div className="card-content bg-cyan-light">
                     <div className="content">
                       <h4 className="title secondary-font is-uppercase is-4 is-spaced">El desafío</h4>
                       <p className="subtitle is-6 is-spaced">Debemos desarrollar planes de manejo ambiental para los sectores de escalada, para cuidar los ecosistemas y especies endémicas. Esto nos ayudará a cuidarlos de otras actividades con mayor impacto.</p>
@@ -149,9 +151,10 @@ const Challenges = class extends React.Component {
                           </p>
                         </div>
                       </div>
+                      <div class="triangle-up triangle-up-orange-light mr-3"></div>
                     </div>
                   </div>
-                  <div className="card-content ">
+                  <div className="card-content bg-orange-light">
                     <div className="content">
                       <h4 className="title secondary-font is-uppercase is-4 is-spaced">El desafío</h4>
                       <p className="subtitle is-6 is-spaced">Generar un espacio centralizado para obtener información actualizada de rutas, accesos, acuerdos y grupos trabajando en cada sector.</p>
