@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import icono_play from '../img/icono_play.svg'
+import logo from '../img/logo_blanco.svg'
 
 const Hero = () => {
 
@@ -20,9 +21,10 @@ const Hero = () => {
           <div className="columns is-desktop">
             <div className="column">
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
+                className="is-sr-only">
                 ANDESCALADA
               </h1>
+              <img src={logo} alt="Kaldi" style={{ width: '300px' }} />
               <p
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
                 Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes
