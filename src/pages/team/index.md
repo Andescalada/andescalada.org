@@ -2,10 +2,9 @@
 templateKey: team-page
 path: /team
 title: Equipo
-
 group:
-  - name: 'Equipo'
-    description: Motivados por el amor a la escalada y al potencial que tiene Chile de desarrollar sectores para la práctica de este deporte, nos reunimos para aportar en la gestión responsable de estos
+  - name: Equipo ejecutivo
+    description: Quienes están trabajando en el día a día en las diferentes iniciativas de la fundación
     video: true
     members:
     - name: Eyal Levy Grass
@@ -20,19 +19,20 @@ group:
       position: Director de plataformas digitales
       brief: Ingeniero civil industrial, con mención TI que lleva más de 5 años desarrollando aplicaciones web y móviles. Un aficionado de la escalada y del montañismo desde hace 10 años.
       image: /img/team/Foco.jpg
-    - name: Daniela Quiroz Olguín
-      position: Plataformas digitales
-      brief: Ingeniera civil industrial, con mención TI y estudios de género y políticas públicas. Lleva más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Una montañista con expediciones en Chile, Perú, Ecuador y Bolivia.
-      image: /img/team/Dani.jpg
     - name: Jekar Molina
       position: Gestión comunitaria
       brief: Ingeniero civil industrial, y un montañista y escalador por sobre todas las cosas.
       image: /img/team/Jekar.jpg
     - name: Romina Toro
+      position: Directora de financiamiento
       brief: Ingeniera civil industrial con más de 4 años de experiencia en consultoría estratégica. Una montañista de altura, que ha recorrido volcanes y montañas a lo largo de los Andes.
       image: /img/team/Romi.jpg
+    - name: Daniela Quiroz Olguín
+      position: Plataformas digitales
+      brief: Ingeniera civil industrial, con mención TI y estudios de género y políticas públicas. Lleva más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Una montañista con expediciones en Chile, Perú, Ecuador y Bolivia.
+      image: /img/team/Dani.jpg
   - name: 'Directorio'
-    description: Motivados por el amor a la escalada y al potencial que tiene Chile de desarrollar sectores para la práctica de este deporte, nos reunimos para aportar en la gestión responsable de estos
+    description: Quienes están constantemente revisando las iniciativas de la organización y sus lineamientos, además aportando desde sus expertises consejos
     members:
     - name: Francisco Vallés Johnson
       position: Presidente

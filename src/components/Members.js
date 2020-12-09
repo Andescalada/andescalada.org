@@ -23,7 +23,7 @@ const MemberGrid = ({ gridMembers }) => (
             {member.name}
           </h3>
           <p className="has-text-weight-semibold is-size-6"> {member.position }</p>
-          <p className="is-size-7">{member.brief}</p>
+          <p className="is-size-6">{member.brief}</p>
         </section>
       </div>
     ))}

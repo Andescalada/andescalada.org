@@ -19,29 +19,44 @@ export const TeamPageTemplate = ({
       <Navbar />
       <section className="section section--gradient">
         <div className="container is-max-widescreen">
-            <h1 className="is-sr-only"> {title}</h1>
+          <div className="columns">
+            <div className="column is-two-third">
+              <h1 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading mt-6 pt-6">
+                {title}
+              </h1>
+              <p>
+                Motivados por el amor a la escalada y al potencial que tiene Chile de desarrollar sectores para la práctica de este deporte, nos reunimos para aportar en la gestión responsable de estos
+              </p>
+              <button onClick={() => setModal(!modal)} class="button is-info mt-4"> <img src={icono_play} className="pr-2" alt="Play" />  Ver video del equipo</button>
+              { modal &&
+                <div className="modal is-flex">
+                  <div className="modal-background"></div>
+                  <div className="modal-content">
+                    <div class="video-responsive">
+                      <iframe src="https://www.youtube.com/embed/3c63GiQhy8g" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <button onClick={() => setModal(!modal)} className="modal-close is-large" aria-label="close"></button>
+                </div>
+              }
+            </div>
+            <div className="column">
+
+            </div>
+        </div>
+
+
             {group.map((group_members) => (
               <div className="columns">
                 <div className="column is-one-third">
-                  <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading mt-6 ">
+                  <h2 className="title is-size-3 is-size-3-mobile is-spaced  mt-6 ">
                     {group_members.name}
                   </h2>
                   <p>
                     {group_members.description}
                   </p>
 
-                    <button onClick={() => setModal(!modal)} class="button is-info mt-4"> <img src={icono_play} className="pr-2" alt="Play" />  Ver video del equipo</button>
-                    { modal &&
-                      <div className="modal is-flex">
-                        <div className="modal-background"></div>
-                        <div className="modal-content">
-                          <div class="video-responsive">
-                            <iframe src="https://www.youtube.com/embed/3c63GiQhy8g" frameborder="0" allowfullscreen></iframe>
-                          </div>
-                        </div>
-                        <button onClick={() => setModal(!modal)} className="modal-close is-large" aria-label="close"></button>
-                      </div>
-                    }
+
 
                 </div>
                 <div className="column">

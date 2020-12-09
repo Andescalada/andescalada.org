@@ -13,8 +13,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
     <div>
       <Navbar />
       <section className="section section--gradient">
-        <div className="container is-max-widescreen">
-          <h2 className="title is-size-1 is-size-3-mobile is-spaced is-uppercase fading mt-6 ">
+        <div className="container is-max-widescreen ">
+          <h2 className="title is-size-1 is-size-3-mobile is-spaced is-uppercase fading mt-6 pt-6">
             {title}
           </h2>
           <PageContent className="content" content={content} />
