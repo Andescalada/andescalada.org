@@ -61,6 +61,9 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
+              <Link className="navbar-item" to="/">
+                Inicio
+              </Link>
               <Link className="navbar-item" to="/about">
                 Conoce más
               </Link>
@@ -75,7 +78,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={facebook} alt="Facebook" />
+                  <img src={facebook} alt="Facebook" style={{ height: '20px' }}/>
                 </span>
               </a>
               <a
@@ -85,7 +88,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={instagram} alt="Instagram" />
+                  <img src={instagram} alt="Instagram" style={{ height: '24px' }}/>
                 </span>
               </a>
             </div>

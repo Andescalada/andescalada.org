@@ -26,8 +26,8 @@ const Hero = () => {
               </h1>
               <img src={logo} alt="Kaldi" style={{ width: '300px' }} />
               <p
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
-                Fundación que busca coordinar, documentar y promover el desarrollo sostenible de los sectores de escalada en torno a los Andes
+                className="has-text-weight-medium is-size-5-mobile is-size-5-tablet is-size-4-widescreen pt-2">
+                Promovemos el desarrollo sostenible de los sectores de escalada, a través de la creación de herramientas para crear comunidad, cuidar y documentar
               </p>
               <button onClick={() => setModal(!modal)} class="button is-info  mt-4"> <img src={icono_play} className="pr-2" alt="Play" />  Ver video de Andescalada</button>
               { modal &&
