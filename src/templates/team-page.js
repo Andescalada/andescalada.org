@@ -68,6 +68,23 @@ export const TeamPageTemplate = ({
 
         </div>
       </section>
+
+      <section class="hero is-dark is-large">
+        <div class="hero-body">
+          <div class="container has-text-centered pr-6 pl-6">
+            <h1 class="title is-size-2 is-size-3-mobile">
+              ¡Muchas gracias!
+            </h1>
+            <h2 class="subtitle">
+              Además del equipo hay muchas personas que han creído y trabajado por Andescalada. <br></br>En este espacio queremos agradecerles.
+            </h2>
+            <p className="pr-6 pl-6">
+              <span className="has-text-weight-bold">Fer Iglesis</span> por el trabajo en Las Melosas. <span className="has-text-weight-bold">Erica</span> por su apoyo y prolijidad con las traducciones. <span className="has-text-weight-bold">Andres Elgueta</span> por apoyarnos por contar historias a través del podcast. <span className="has-text-weight-bold">LabNave</span> por la paciencia que nos tuvieron y calidad en el trabajo. <span className="has-text-weight-bold">Pato Díaz</span> por creer en nosotros y apoyarnos con nuestro primer video.
+            </p>
+          </div>
+        </div>
+      </section>
+
     </div>
   )
 }
