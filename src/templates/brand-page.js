@@ -21,7 +21,8 @@ export const BrandPageTemplate = ({
   return (
     <div>
       <Navbar />
-          <div className="container is-max-desktop mt-6 pt-6">
+        <div className="hero-body">
+          <div className="container is-max-desktop ">
 
               <h1 className="is-size-2 is-size-3-mobile is-spaced is-uppercase mt-6 pt-6 title ">
                 <span class="fading">Guía de Marca</span>
@@ -196,25 +197,25 @@ export const BrandPageTemplate = ({
                   Aventurera
                 </h4>
                 <p>
-                  
+
                 </p>
                 <h4 className="title is-size-4 is-size-4-mobile pt-4 secondary-font andescalada-cyan-dark has-text-weight-bold">
                   Cercana
                 </h4>
                 <p>
-                  
+
                 </p>
                 <h4 className="title is-size-4 is-size-4-mobile pt-4 secondary-font andescalada-mustard-dark has-text-weight-bold">
                   Activista
                 </h4>
                 <p>
-                  
+
                 </p>
               </section>
 
         </div>
 
-
+      </div>
     </div>
   )
 }

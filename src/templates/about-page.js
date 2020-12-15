@@ -205,18 +205,18 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
             <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase has-text-centered">
               <span className="fading">Proyectos activos</span>
             </h2>
-            <div className="columns is-hidden-mobile p-6">
-              <div className="column pr-6">
+            <div className="columns p-6">
+              <div className="column">
                 <img className="is-square" src={app} alt="Acceso" style={{ height: '300px' }}/>
                 <h3 className="title is-size-4 pt-3">Desarrollo de aplicación móvil</h3>
                 <p>Estamos desarrollando una aplicación para teléfonos iPhone y Android con el fin de gestionar los topos de manera dinámica, más eficiente, más amigable, que funciona sin internet, pero también que ayuden a mantener una gestión sustentable de los sectores.</p>
               </div>
-              <div className="column pr-6">
+              <div className="column">
                 <img className="is-square" src={documentacion} alt="Cuidado" style={{ height: '300px' }}/>
                 <h3 className="title is-size-4 pt-3">Trabajo en Las Melosas</h3>
                 <p>Estamos desarrollando una aplicación para teléfonos iPhone y Android con el fin de gestionar los topos de manera dinámica, más eficiente, más amigable, que funciona sin internet, pero también que ayuden a mantener una gestión sustentable de los sectores.</p>
               </div>
-              <div className="column pr-6">
+              <div className="column">
                 <img className="is-square" src={las_melosas} alt="Documentación" style={{ height: '300px' }}/>
                 <h3 className="title is-size-4 pt-3">Documentación activa de sectores</h3>
                 <p>La fundación tendrá un fuerte trabajo en terreno para documentar las zonas de escalada en donde estamos fotografiando paredes y diseñando los topos, levantando información de la zona (acceso, normas, ética, tarifas) y reuniendonos con escaladores y organizaciones locales para coordinarnos y levantar información histórica del sector y trabajar en la memoria colectiva.</p>
