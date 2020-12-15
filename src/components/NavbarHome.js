@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import logo from '../img/logo_andescalada_letras_blanco.svg'
+import logo from '../img/logo_blanco.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -43,7 +43,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Fundación Andescalada" style={{ height: '20px' }} />
+              <img src={logo} alt="Fundación Andescalada" style={{ height: '80px' }} />
             </Link>
             {/* Hamburger menu */}
             <div

@@ -21,8 +21,8 @@ export const TeamPageTemplate = ({
         <div className="container is-max-widescreen">
           <div className="columns">
             <div className="column is-two-third">
-              <h1 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading mt-6 pt-6">
-                {title}
+              <h1 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase mt-6 pt-6">
+                <span className="fading">{title}</span>
               </h1>
               <p>
                 Motivados por el amor a la escalada y al potencial que tiene Chile de desarrollar sectores para la práctica de este deporte, nos reunimos para aportar en la gestión responsable de estos

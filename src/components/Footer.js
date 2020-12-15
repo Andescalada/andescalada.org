@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
         <div className="content has-background-primary has-text-white-ter">
           <div className="container has-background-primary has-text-white-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-4">
+              <div className="column is-4 has-text-centered">
                 <section>
                   <div className="content has-text-centered">
                     <img
@@ -26,11 +26,22 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4">
-                <section className="menu">
-
+                <section className="menu content has-text-centered">
+                  <Link className="" to="/">
+                    Inicio
+                  </Link><br></br>
+                  <Link className="" to="/about">
+                    Conoce más
+                  </Link><br></br>
+                  <Link className="" to="/team">
+                    Equipo
+                  </Link><br></br>
+                <Link className="" to="/brand">
+                    Guía de marca
+                  </Link><br></br>
                 </section>
               </div>
-              <div className="column is-4 social has-text-white has-text-center-mobile">
+              <div className="column is-4 social has-text-white has-text-center-mobile content has-text-centered">
                 <p> Síguenos en nuestras redes sociales</p>
                 <a title="facebook" href="https://facebook.com/andescalada">
                   <img

@@ -13,8 +13,8 @@ const Challenges = class extends React.Component {
           <div className="container is-max-widescreen">
             <div className="columns">
               <div className="column is-three-fifths">
-                <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading">
-                  Líneas de acción
+                <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase">
+                  <span className="fading">Líneas de acción</span>
                 </h2>
                 <p className="subtitle is-size-5">
                   Nuestro trabajo se divide en tres áreas que, en conjunto, buscan proporcionar un espacio de comunicación y entregar herramientas de gestión a la comunidad escaladora

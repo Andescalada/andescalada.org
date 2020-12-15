@@ -35,8 +35,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <Navbar />
       <section className="section section--gradient">
         <div className="container is-max-widescreen pt-6">
-          <h1 className="title is-size-1 is-size-3-mobile is-spaced is-uppercase fading mt-6 pt-6">
-            {title}
+          <h1 className="title is-size-1 is-size-3-mobile is-spaced is-uppercase  mt-6 pt-6">
+            <span className="fading">{title}</span>
           </h1>
           <div class="columns">
             <div class="column">
@@ -67,7 +67,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <div className="columns">
             <div className="column is-two-third">
               <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading mt-6 pt-6">
-                El diágnostico
+                <span className="fading">El diágnostico</span>
               </h2>
               <p>
                 Motivados por el amor a la escalada y al potencial que tiene Chile de desarrollar sectores para la práctica de este deporte, nos reunimos para aportar en la gestión responsable de estos
@@ -161,7 +161,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               </p>
               <br/>
               <p className="is-size-5">
-                Existe una oportunidad ú nica de fomentar el desarrollo de las comunidades locales, en donde estas pueden ofrecer productos y o servicios asociados a un ecoturismo para este deporte, habilitando zonas para acampar, servicios guiados, oferta grastrónomica, entre otras.
+                Existe una oportunidad única de fomentar el desarrollo de las comunidades locales, en donde estas pueden ofrecer productos y o servicios asociados a un ecoturismo para este deporte, habilitando zonas para acampar, servicios guiados, oferta grastrónomica, entre otras.
               </p>
             </div>
           </div>
@@ -171,8 +171,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <section className="hero is-fullheight-with-navbar has-background-light">
         <div className="hero-body">
           <div className="container is-max-widescreen has-text-centered">
-            <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading">
-              Líneas de acción
+            <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase">
+              <span className="fading">Líneas de acción</span>
             </h2>
             <p className="title is-size-4 pl-6 pr-6">
               Para hacernos cargo de los problemas y las oportunidades que vemos, <br/>trabajamos en tres líneas de acción
@@ -202,8 +202,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <section className="hero is-fullheight-with-navbar">
         <div className="hero-body">
           <div className="container is-max-widescreen">
-            <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading has-text-centered">
-              Proyectos activos
+            <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase has-text-centered">
+              <span className="fading">Proyectos activos</span>
             </h2>
             <div className="columns is-hidden-mobile p-6">
               <div className="column pr-6">

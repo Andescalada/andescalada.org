@@ -23,11 +23,9 @@ const Hero = () => {
         <div className="container">
           <div className="columns is-desktop">
             <div className="column">
-              <h1
-                className="is-sr-only">
-                ANDESCALADA
-              </h1>
-              <img src={logo} alt="Kaldi" style={{ width: '300px' }} />
+              <h2 className="title is-size-1 is-size-2-mobile is-spaced is-uppercase has-text-white">
+                Andescalada
+              </h2>
               <p
                 className="has-text-weight-medium is-size-5-mobile is-size-5-tablet is-size-4-widescreen pt-2">
                 Promovemos el desarrollo sostenible de los sectores de escalada, a través de la creación de herramientas para crear comunidad, cuidar y documentar
