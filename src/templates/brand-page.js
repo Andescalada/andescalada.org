@@ -140,7 +140,7 @@ export const BrandPageTemplate = ({
                 </h3>
                   <div className="columns">
                     <div className="column">
-                      <div class="mustard-square"></div>
+                      <div class="mustard-square">hola </div>
                     </div>
                     <div className="column">
                       <p className="">
@@ -160,6 +160,57 @@ export const BrandPageTemplate = ({
                       </p>
                     </div>
                   </div>
+              </section>
+
+              <section id="secondary-colors" className="pt-6 pb-6 mb-6">
+                <h2 className="title is-size-3 is-size-3-mobile is-spaced">
+                  <span class="underline--magical"> Accesibilidad</span>
+                </h2>
+                <h3 className="title is-size-4 is-size-4-mobile is-spaced">
+                  Accesibilidad
+                </h3>
+
+                <div className="table-container">
+                  <table className="table is-bordered is-fullwidth">
+
+                    <thead>
+                      <tr>
+                        <th> Nombre </th>
+                        <th> Color original </th>
+                        <th> Versión oscura </th>
+                        <th> Versión clara </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td> Morado </td>
+                        <td className="bg-purple"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-purple-dark"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-purple-light"> <p className="has-text-black"> AAA </p> </td>
+                      </tr>
+                      <tr>
+                        <td> Naranjo </td>
+                        <td className="bg-orange"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-orange-dark"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-orange-light"> <p className="has-text-black"> AAA </p> </td>
+                      </tr>
+                      <tr>
+                        <td> Mostaza </td>
+                        <td className="bg-mustard"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-mustard-dark"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-mustard-light"> <p className="has-text-black"> AAA </p> </td>
+                      </tr>
+                      <tr>
+                        <td> Celeste </td>
+                        <td className="bg-cyan"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-cyan-dark"> <p className="has-text-white"> AAA </p> </td>
+                        <td className="bg-cyan-light"> <p className="has-text-black"> AAA </p> </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+
               </section>
 
               <section id="personality" className="pt-6 mt-6">
