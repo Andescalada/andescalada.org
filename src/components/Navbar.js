@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
+import facebook from '../img/social/facebook_black.svg'
+import instagram from '../img/social/instagram_black.svg'
 import logo from '../img/logo_svg.svg'
 
 const Navbar = class extends React.Component {
@@ -70,6 +70,14 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/team">
                 Equipo
               </Link>
+              <a
+                className="navbar-item"
+                href="https://medium.com/andescalada"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </a>
 
               <a
                 className="navbar-item"

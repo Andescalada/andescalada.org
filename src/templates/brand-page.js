@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
 import Navbar from '../components/Navbar'
 import logo from '../img/logo_svg.svg'
 import logo_blanco from '../img/logo_blanco.svg'
@@ -17,7 +16,6 @@ export const BrandPageTemplate = ({
   contentComponent,
   title
 }) => {
-  const PageContent = contentComponent || Content
   return (
     <div>
       <Navbar />
@@ -40,7 +38,7 @@ export const BrandPageTemplate = ({
                 </h3>
                 <div className="pt-3 pb-6">
                   <img className=" is-spaced" src={logo} alt="logo Andescalada" style={{ height: '200px' }} />
-                  <br></br><a href="https://andescalada.org/img/logo_svg.svg" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_morado.png" target="_blank">PNG </a>
+                  <br></br><a href="https://andescalada.org/img/logo_svg.svg" rel="noreferrer" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_morado.png" rel="noreferrer" target="_blank">PNG </a>
                 </div>
               </section>
 
@@ -53,29 +51,29 @@ export const BrandPageTemplate = ({
                     <div className="column">
                       <h4 className="title is-size-5 is-size-5-mobile is-spaced"> Version negativo </h4>
                       <img className=" is-spaced p-4 has-background-dark" src={logo_blanco} alt="logo Andescalada" style={{ height: '200px' }} />
-                      <br></br><a href="https://andescalada.org/img/logo_blanco.svg" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_blanco.png" target="_blank">PNG </a>
+                      <br></br><a href="https://andescalada.org/img/logo_blanco.svg" rel="noreferrer" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_blanco.png" rel="noreferrer" target="_blank">PNG </a>
                   </div>
                     <div className="column">
                       <h4 className="title is-size-5 is-size-5-mobile is-spaced">  Version positiva </h4>
                       <img className=" is-spaced p-4" src={logo_negro} alt="logo Andescalada" style={{ height: '200px' }} />
-                      <br></br><a href="https://andescalada.org/img/logo_negro.svg" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_negro.png" target="_blank">PNG </a>
+                      <br></br><a href="https://andescalada.org/img/logo_negro.svg" rel="noreferrer" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_negro.png" rel="noreferrer" target="_blank">PNG </a>
                   </div>
                   </div>
                   <div className="columns">
                     <div className="column">
                       <h4 className="title is-size-5 is-size-5-mobile">Isotipo </h4>
                       <img className=" " src={logo_app} alt="logo Andescalada" style={{ height: '200px' }} />
-                      <br></br><a href="https://andescalada.org/img/logo_app.svg" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_app.png" target="_blank">PNG </a>
+                      <br></br><a href="https://andescalada.org/img/logo_app.svg" rel="noreferrer" target="_blank">SVG </a> | <a href="https://andescalada.org/img/logo_app.png" rel="noreferrer" target="_blank">PNG </a>
                   </div>
                     <div className="column">
                       <h4 className="title is-size-5 is-size-5-mobile">Isotipo negro</h4>
                       <img className="p-6" src={isotipo_negro} alt="logo Andescalada" style={{ height: '200px' }} />
-                      <br></br><a href="https://andescalada.org/img/isotipo_negro.svg" target="_blank">SVG </a> | <a href="https://andescalada.org/img/isotipo_negro.png" target="_blank">PNG </a>
+                      <br></br><a href="https://andescalada.org/img/isotipo_negro.svg" rel="noreferrer" target="_blank">SVG </a> | <a href="https://andescalada.org/img/isotipo_negro.png" rel="noreferrer" target="_blank">PNG </a>
                     </div>
                     <div className="column">
                       <h4 className="title is-size-5 is-size-5-mobile">Isotipo morado</h4>
                       <img className="p-6" src={isotipo_morado} alt="logo Andescalada" style={{ height: '200px' }} />
-                      <br></br><a href="https://andescalada.org/img/isotipo_morado.svg" target="_blank">SVG </a> | <a href="https://andescalada.org/img/isotipo_morado.png" target="_blank">PNG </a>
+                      <br></br><a href="https://andescalada.org/img/isotipo_morado.svg" rel="noreferrer" target="_blank">SVG </a> | <a href="https://andescalada.org/img/isotipo_morado.png" rel="noreferrer" target="_blank">PNG </a>
                     </div>
                   </div>
                 </div>

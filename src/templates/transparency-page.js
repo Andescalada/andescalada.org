@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-import icono_play from '../img/icono_play.svg'
 import Navbar from '../components/Navbar'
 
 export const TransparencyPageTemplate = ({
@@ -11,7 +9,6 @@ export const TransparencyPageTemplate = ({
   fund,
   contentComponent
 }) => {
-  const PageContent = contentComponent || Content
   return (
     <div>
       <Navbar />

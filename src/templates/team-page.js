@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Members from '../components/Members'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
 import icono_play from '../img/icono_play.svg'
 import Navbar from '../components/Navbar'
 
@@ -13,7 +12,6 @@ export const TeamPageTemplate = ({
   contentComponent
 }) => {
   const [modal, setModal] = useState(false);
-  const PageContent = contentComponent || Content
   return (
     <div>
       <Navbar />

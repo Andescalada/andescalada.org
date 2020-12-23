@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import app from '../img/proyectos_activos_app.jpg'
 import documentacion from '../img/proyectos_activos_documentacion.jpg'
 import las_melosas from '../img/proyectos_activos_las_melosas.jpg'
@@ -11,8 +11,6 @@ import Why from '../components/Why'
 import Challenges from '../components/Challenges'
 import Contact from '../components/Contact'
 import Team from '../components/Team'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   title,

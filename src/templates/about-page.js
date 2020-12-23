@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Challenges from '../components/Challenges'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import Navbar from '../components/Navbar'
 import acceso from '../img/problema1.jpg'
 import involucramiento from '../img/problema2.jpg'
@@ -28,7 +27,6 @@ import icono_documentacion from '../img/flaticon/bosque.svg'
 
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
 
   return (
     <div>

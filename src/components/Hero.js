@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import icono_play from '../img/icono_play.svg'
-import logo from '../img/logo_blanco.svg'
 import NavbarHome from '../components/NavbarHome'
 
 const Hero = () => {
@@ -36,7 +35,7 @@ const Hero = () => {
                   <div className="modal-background"></div>
                   <div className="modal-content">
                     <div class="video-responsive">
-                      <iframe src="https://www.youtube.com/embed/pzcrnifuumk" frameborder="0" allowfullscreen></iframe>
+                      <iframe title="Video acerca de Andescalada" src="https://www.youtube.com/embed/pzcrnifuumk" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
                   <button onClick={() => setModal(!modal)} className="modal-close is-large" aria-label="close"></button>

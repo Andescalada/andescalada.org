@@ -27,16 +27,19 @@ const Footer = class extends React.Component {
               </div>
               <div className="column is-4">
                 <section className="menu content has-text-centered">
-                  <Link className="" to="/">
+                  <Link className="has-text-white" to="/">
                     Inicio
                   </Link><br></br>
-                  <Link className="" to="/about">
+                <Link className="has-text-white" to="/about">
                     Conoce más
                   </Link><br></br>
-                  <Link className="" to="/team">
+                <Link className="has-text-white" to="/team">
                     Equipo
                   </Link><br></br>
-                <Link className="" to="/brand">
+                <Link className="has-text-white" to="/transparency">
+                    Transparencia
+                  </Link><br></br>
+                <Link className="has-text-white" to="/brand">
                     Guía de marca
                   </Link><br></br>
                 </section>
