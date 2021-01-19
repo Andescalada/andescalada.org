@@ -70,7 +70,14 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/team">
                 Equipo
               </Link>
-
+              <a
+                className="navbar-item has-text-white"
+                href="https://medium.com/andescalada"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </a>
               <a
                 className="navbar-item"
                 href="https://facebook.com/andescalada"

@@ -68,7 +68,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="medium" href="https://medium.com">
+                <a title="medium" href="https://medium.com/andescalada">
                   <img
                     src={medium}
                     alt="Vimeo"
@@ -83,7 +83,8 @@ const Footer = class extends React.Component {
         </div>
         <hr className="ml-6 mr-6"/>
         <div className="container has-background-primary has-text-white-ter has-text-centered pb-4">
-          <div>Los iconos utilizados son hechos por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> en <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+          <div> Este sitio web está desarrollado bajo la licencia <a href="https://choosealicense.com/licenses/gpl-3.0/" title="Licence GNU v3">GNU General Public License v3.0</a>
+          </div>
         </div>
       </footer>
     )

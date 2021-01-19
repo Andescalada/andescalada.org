@@ -267,7 +267,16 @@ export const BrandPageTemplate = ({
                 </p>
               </section>
 
+              <section id="license" className="pt-6">
+                <h3 className="title is-size-4 is-size-4-mobile is-spaced">
+                  Licencias
+                </h3>
+                <p>Los iconos utilizados son hechos por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> en <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></p>
+                
+                </section>
+
         </div>
+
 
       </div>
     </div>
