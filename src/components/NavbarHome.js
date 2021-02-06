@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import logo from '../img/logo_blanco.svg'
+import Crowdfunding from '../components/Crowdfunding'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -35,73 +36,76 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Fundación Andescalada" style={{ height: '80px' }} />
-            </Link>
-            {/* Hamburger menu */}
+      <div>
+        <Crowdfunding />
+        <nav
+          className="navbar is-transparent"
+          role="navigation"
+          aria-label="main-navigation"
+        >
+          <div className="container">
+            <div className="navbar-brand">
+              <Link to="/" className="navbar-item" title="Logo">
+                <img src={logo} alt="Fundación Andescalada" style={{ height: '80px' }} />
+              </Link>
+              {/* Hamburger menu */}
+              <div
+                className={`navbar-burger has-text-white burger ${this.state.navBarActiveClass}`}
+                data-target="navMenu"
+                onClick={() => this.toggleHamburger()}
+              >
+                <span />
+                <span />
+                <span />
+              </div>
+            </div>
             <div
-              className={`navbar-burger has-text-white burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
+              id="navMenu"
+              className={`navbar-menu ${this.state.navBarActiveClass}`}
             >
-              <span />
-              <span />
-              <span />
+              <div className="navbar-end has-text-centered">
+                <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/">
+                  Inicio
+                </Link>
+                <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/about">
+                  Conoce más
+                </Link>
+                <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/team">
+                  Equipo
+                </Link>
+                <a
+                  className="navbar-item has-text-white"
+                  href="https://medium.com/andescalada"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Blog
+                </a>
+                <a
+                  className="navbar-item"
+                  href="https://facebook.com/andescalada"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="icon">
+                    <img src={facebook} alt="Facebook" style={{ height: '20px' }}/>
+                  </span>
+                </a>
+                <a
+                  className="navbar-item"
+                  href="https://instagram.com/andescalada"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="icon">
+                    <img src={instagram} alt="Instagram" style={{ height: '24px' }}/>
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-end has-text-centered">
-              <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/">
-                Inicio
-              </Link>
-              <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/about">
-                Conoce más
-              </Link>
-              <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/team">
-                Equipo
-              </Link>
-              <a
-                className="navbar-item has-text-white"
-                href="https://medium.com/andescalada"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-              <a
-                className="navbar-item"
-                href="https://facebook.com/andescalada"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={facebook} alt="Facebook" style={{ height: '20px' }}/>
-                </span>
-              </a>
-              <a
-                className="navbar-item"
-                href="https://instagram.com/andescalada"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={instagram} alt="Instagram" style={{ height: '24px' }}/>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     )
   }
 }
