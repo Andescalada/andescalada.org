@@ -52,6 +52,8 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og_image.jpg`}
         />
 
+        <script src="https://my.hellobar.com/2ccecec894064fb90db68d11826755390e84102e.js" type="text/javascript" charset="utf-8" async="async"></script>
+
       </Helmet>
       <div>{children}</div>
       <Footer />
