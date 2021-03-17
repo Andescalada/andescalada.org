@@ -212,7 +212,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <div className="column">
                 <img className="is-square" src={documentacion} alt="Cuidado" style={{ height: '300px' }}/>
                 <h3 className="title is-size-4 pt-3">Trabajo en Las Melosas</h3>
-                <p>Estamos desarrollando una aplicación para teléfonos iPhone y Android con el fin de gestionar los topos de manera dinámica, más eficiente, más amigable, que funciona sin internet, pero también que ayuden a mantener una gestión sustentable de los sectores.</p>
+                <p>Estamos trabajando en el sector de escalada Las Melosas, ubicado en el Cajón del Maipo. Realizamos un leventamiento de información para luego instalar un baño seco y marcar senderos, con el objetivo de cuidar el lugar. Pronto, instalaremos un segundo baño seco, además de carteles con información acerca del lugar y su cuidado.</p>
               </div>
               <div className="column">
                 <img className="is-square" src={las_melosas} alt="Documentación" style={{ height: '300px' }}/>

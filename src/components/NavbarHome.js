@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import logo from '../img/logo_blanco.svg'
-import Crowdfunding from '../components/Crowdfunding'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -37,7 +36,6 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <div>
-        <Crowdfunding />
         <nav
           className="navbar is-transparent"
           role="navigation"

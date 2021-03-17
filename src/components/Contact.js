@@ -7,7 +7,7 @@ const Contact = class extends React.Component {
         <div className="hero-body">
           <div className="container is-max-desktop has-text-centered">
             <h2 className="title is-size-2 is-size-3-mobile is-spaced is-uppercase fading">
-              ¿Quiéres contactarnos?
+              ¿Quieres contactarnos?
             </h2>
             <p className="subtitle is-size-5">
               Si tienes preguntas sobre Andescalada, quieres tener más información o eres parte de un colectivo que esta desarrollando un sector de escalada y crees que podemos trabajar en conjunto escríbenos a
