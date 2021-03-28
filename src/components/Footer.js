@@ -13,7 +13,7 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-primary has-text-white-ter">
         <div className="content has-background-primary has-text-white-ter">
           <div className="container has-background-primary has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns">
+            <div className="columns mr-0">
               <div className="column is-4 has-text-centered">
                 <section>
                   <div className="content has-text-centered">
@@ -76,7 +76,7 @@ const Footer = class extends React.Component {
                   />
                 </a>
                 <p className="has-spaced"> </p>
-                <p> Escríbenos a contacto@andescalada.org </p>
+                <p> Escríbenos a <br></br><a href="mailto:contacto@andescalada.org?Subject=Andescalada">contacto@andescalada.org </a></p>
               </div>
             </div>
           </div>

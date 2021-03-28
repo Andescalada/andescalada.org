@@ -10,9 +10,9 @@ const Contact = class extends React.Component {
               ¿Quieres contactarnos?
             </h2>
             <p className="subtitle is-size-5">
-              Si tienes preguntas sobre Andescalada, quieres tener más información o eres parte de un colectivo que esta desarrollando un sector de escalada y crees que podemos trabajar en conjunto escríbenos a
+              Si tienes preguntas sobre Andescalada, quieres tener más información o eres parte de un colectivo que está desarrollando un sector de escalada y crees que podemos trabajar en conjunto escríbenos a
             </p>
-            <button className="button is-active"><a href="mailto:contacto@andescalada.org?Subject=Informacion%Andescalada">contacto@andescalada.org</a></button>
+            <button className="button is-active"><a href="mailto:contacto@andescalada.org?Subject=Andescalada">contacto@andescalada.org</a></button>
           </div>
         </div>
       </section>
