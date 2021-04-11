@@ -28,9 +28,17 @@ group:
       brief: Ingeniera civil industrial con más de 4 años de experiencia en consultoría estratégica. Una montañista de altura, que ha recorrido volcanes y montañas a lo largo de los Andes.
       image: /img/team/Romi.jpg
     - name: Daniela Quiroz Olguín
-      position: Plataformas digitales
+      position: Plataformas digitales, Comunicaciones
       brief: Ingeniera civil industrial, con mención TI y estudios de género y políticas públicas. Lleva más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Una montañista con expediciones en Chile, Perú, Ecuador y Bolivia.
       image: /img/team/Dani.jpg
+    - name: Manuel Conejeros
+      position: Financiamiento
+      brief: Ingeniero Civil Industrial, con más de cuatro años de experiencia en sustentabilidad empresarial con especial foco en Empresas B. Disfruta de la conexión con la naturaleza a través de la escalada hace más de 3 años.
+      image: /img/team/Manu.jpg
+    - name: Antonio Marcone Carvajal
+      position: Gestión comunitaria
+      brief: Ingeniero Comercial.  Escalador de bloque hace 5 años, apasionado por la fotografía y sustentabilidad.
+      image: /img/team/Tony.jpg
   - name: 'Directorio'
     description: Quienes están constantemente revisando las iniciativas de la organización y sus lineamientos, además aportando desde sus expertises consejos
     members:
