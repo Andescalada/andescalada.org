@@ -1,15 +1,15 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import facebook from '../img/social/facebook_black.svg'
-import instagram from '../img/social/instagram_black.svg'
-import logo from '../img/logo_svg.svg'
+import React from "react"
+import { Link } from "gatsby"
+import facebook from "../img/social/facebook_black.svg"
+import instagram from "../img/social/instagram_black.svg"
+import logo from "../img/logo_svg.svg"
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       active: false,
-      navBarActiveClass: '',
+      navBarActiveClass: "",
     }
   }
 
@@ -24,10 +24,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
+              navBarActiveClass: "is-active",
             })
           : this.setState({
-              navBarActiveClass: '',
+              navBarActiveClass: "",
             })
       }
     )
@@ -44,7 +44,7 @@ const Navbar = class extends React.Component {
           <div className="container">
             <div className="navbar-brand">
               <Link to="/" className="navbar-item" title="Logo">
-                <img src={logo} alt="Andescalada" style={{ height: '80px' }} />
+                <img src={logo} alt="Andescalada" style={{ height: "80px" }} />
               </Link>
               {/* Hamburger menu */}
               <div
@@ -71,6 +71,9 @@ const Navbar = class extends React.Component {
                 <Link className="navbar-item" to="/team">
                   Equipo
                 </Link>
+                <Link className="navbar-item" to="/coalition">
+                  Coaliciones
+                </Link>
                 <a
                   className="navbar-item"
                   href="https://medium.com/andescalada"
@@ -87,7 +90,11 @@ const Navbar = class extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <span className="icon">
-                    <img src={facebook} alt="Facebook" style={{ height: '20px' }}/>
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                      style={{ height: "20px" }}
+                    />
                   </span>
                 </a>
                 <a
@@ -97,7 +104,11 @@ const Navbar = class extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <span className="icon">
-                    <img src={instagram} alt="Instagram" style={{ height: '24px' }}/>
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      style={{ height: "24px" }}
+                    />
                   </span>
                 </a>
               </div>

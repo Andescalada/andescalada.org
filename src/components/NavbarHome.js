@@ -1,15 +1,15 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import logo from '../img/logo_blanco.svg'
+import React from "react"
+import { Link } from "gatsby"
+import facebook from "../img/social/facebook.svg"
+import instagram from "../img/social/instagram.svg"
+import logo from "../img/logo_blanco.svg"
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       active: false,
-      navBarActiveClass: '',
+      navBarActiveClass: "",
     }
   }
 
@@ -24,10 +24,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
+              navBarActiveClass: "is-active",
             })
           : this.setState({
-              navBarActiveClass: '',
+              navBarActiveClass: "",
             })
       }
     )
@@ -44,7 +44,11 @@ const Navbar = class extends React.Component {
           <div className="container">
             <div className="navbar-brand">
               <Link to="/" className="navbar-item" title="Logo">
-                <img src={logo} alt="Fundación Andescalada" style={{ height: '80px' }} />
+                <img
+                  src={logo}
+                  alt="Fundación Andescalada"
+                  style={{ height: "80px" }}
+                />
               </Link>
               {/* Hamburger menu */}
               <div
@@ -62,14 +66,29 @@ const Navbar = class extends React.Component {
               className={`navbar-menu ${this.state.navBarActiveClass}`}
             >
               <div className="navbar-end has-text-centered">
-                <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/">
+                <Link
+                  className="navbar-item has-text-white has-text-black-mobile-desktop"
+                  to="/"
+                >
                   Inicio
                 </Link>
-                <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/about">
+                <Link
+                  className="navbar-item has-text-white has-text-black-mobile-desktop"
+                  to="/about"
+                >
                   Conoce más
                 </Link>
-                <Link className="navbar-item has-text-white has-text-black-mobile-desktop" to="/team">
+                <Link
+                  className="navbar-item has-text-white has-text-black-mobile-desktop"
+                  to="/team"
+                >
                   Equipo
+                </Link>
+                <Link
+                  className="navbar-item has-text-white has-text-black-mobile-desktop"
+                  to="/coalition"
+                >
+                  Coaliciones
                 </Link>
                 <a
                   className="navbar-item has-text-white"
@@ -86,7 +105,11 @@ const Navbar = class extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <span className="icon">
-                    <img src={facebook} alt="Facebook" style={{ height: '20px' }}/>
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                      style={{ height: "20px" }}
+                    />
                   </span>
                 </a>
                 <a
@@ -96,7 +119,11 @@ const Navbar = class extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <span className="icon">
-                    <img src={instagram} alt="Instagram" style={{ height: '24px' }}/>
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      style={{ height: "24px" }}
+                    />
                   </span>
                 </a>
               </div>
