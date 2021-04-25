@@ -14,11 +14,11 @@ const alphaPage = () => {
                 <span className="fading">Programa de alpha testers</span>
               </h1>
               <h2 className="title is-size-3">
-                ¡Estamos muy emocionados de comenzar nuestro plan de testeo!
+                ¡Con mucha emoción comenzamos nuestro plan de testeo!
               </h2>
               <p>
                 El objetivo de esta programa es encontrar errores y mejorarlos
-                lo más rápido posible para poder publicar la versión final a las
+                lo más rápido posible para poder publicar la versión final en las
                 tiendas de aplicaciones.
               </p>
               <h4 className=" subtitle is-size-4 mt-4">
@@ -28,8 +28,29 @@ const alphaPage = () => {
                 Esta versión es exclusiva para las personas que nos{" "}
                 <strong>apoyaron en el crowdfunding.</strong> Si estas
                 interesado en probar la app puedes inscribirte en la lista de
-                espera aquí... DANI AGREGAR FORMULARIO
+                espera aquí:
               </p>
+              <div class="columns">
+                <div className="column is-half">
+                  <form name="alpha" method="POST" data-netlify="true">
+                    <div className="field">
+                      <label className="label">Nombre</label>
+                      <div className="control">
+                        <input className="input" name="name" type="text" placeholder="Tu nombre acá"/>
+                      </div>
+                    </div>
+                    <div className="field">
+                      <label className="label">Email</label>
+                      <div className="control">
+                        <input className="input" name="email" type="email" placeholder="Tu email acá"/>
+                      </div>
+                    </div>
+                    <p>
+                      <button className="button is-primary" type="submit">Enviar</button>
+                    </p>
+                  </form>
+                </div>
+              </div>
               <h4 className=" subtitle is-size-4 mt-4">
                 ✅ ¿Qué debes esperar de esta versión?
               </h4>
@@ -49,6 +70,9 @@ const alphaPage = () => {
                 <li>Mucha información sobre las zonas, sectores y paredes</li>
                 <li>
                   La capacidad de agregar zonas,sectores, paredes y rutas nuevas
+                </li>
+                <li>
+                  Filtrar rutas, sectores o zonas por las distintas características que verás
                 </li>
               </ul>
               <span />
@@ -75,7 +99,7 @@ const alphaPage = () => {
                   Crea una cuenta por medio del correo que recibiste de parte de
                   Expo
                 </li>
-                <li>Descarga Expo Go en iOS o Expo en Android</li>
+                <li>Descarga Expo Go en <a href="https://apps.apple.com/app/apple-store/id982107779" target="_blank" rel="noopener noreferrer">iOS</a> o Expo en <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www" target="_blank" rel="noopener noreferrer">Android</a></li>
                 <li>Abre Expo Go/Expo e inicia sesión</li>
                 <li>
                   En el inicio de esta app aparecerá el logo de la aplicación de
@@ -87,7 +111,7 @@ const alphaPage = () => {
                   automáticamente por lo que no deberás esperarlo.
                 </li>
                 <li>
-                  <span className="is-bold">¡¡Comienza a usar la app!!</span>
+                  <span className="is-bold">¡Comienza a usar la app!</span>
                 </li>
               </ol>
             </div>
