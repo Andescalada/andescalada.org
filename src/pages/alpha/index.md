@@ -2,7 +2,10 @@
 templateKey: 'alpha-page'
 path: /alpha
 title: App Móvil
+heading: App Móvil
+description: App Móvil
 ---
+
 
 # Bienvenido!
 ## Estamos emocionados de comenzar el testeo de nuestra app en su versión alfa
