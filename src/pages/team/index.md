@@ -46,7 +46,7 @@ group:
       position: Presidenta    
       image: /img/team/Nati.jpg
     - name: Eyal Levy
-      position: Vice-presidenta
+      position: Vice-presidente
       image: /img/team/Eyal.jpg
     - name: Camila Tirado
       position: Secretaria
