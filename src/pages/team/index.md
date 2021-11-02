@@ -7,10 +7,6 @@ group:
     description: Quienes están trabajando en el día a día en las diferentes iniciativas de la fundación
     video: true
     members:
-    - name: Natalia Bugedo Caroca
-      position: Directora Ejecutiva
-      brief: Ingeniera civil industrial, con mención mecánica, y un magíster en ciencias de la ingeniería. Guía Instructora de escalada deportiva de la ENAM y miembro de la ACGM, además de profe en @rockeras_cl. Enamorada de la escalada desde el 2012, con ascensiones en Chile, Bolivia, Ecuador, Argentina y USA.
-      image: /img/team/Nati.jpg
     - name: Eyal Levy Grass
       position: Encargado comunicaciones
       brief: Ingeniero civil industrial, con master en Gestión de Operaciones y otro en Sustainability Management en Columbia University. Escalador y montañista con aventuras en Chile, Estados Unidos y la Patagonia.
@@ -42,25 +38,22 @@ group:
   - name: 'Directorio'
     description: Quienes están constantemente revisando las iniciativas de la organización y sus lineamientos, además aportando desde sus expertises consejos
     members:
-    - name: Natalia Bugedo
-      position: Presidenta    
-      image: /img/team/Nati.jpg
     - name: Eyal Levy
-      position: Vice-presidente
+      position: ""
       image: /img/team/Eyal.jpg
     - name: Camila Tirado
-      position: Secretaria
+      position: ""
       brief: Médico, escaladora y montañista.
       image: /img/team/Cami.jpg
     - name: Jekar Molina
-      position: Tesorero
+      position: ""
       image: /img/team/Jekar.jpg
     - name: Ignacio Morales
-      position: Director
+      position: ""
       brief: Abogado, socio fundador de Zenit Climbing & Yoga, montañista, escalador, abridor de rutas nuevas en distintas partes de los Andes.
       image: /img/team/nacho.png
     - name: Verena Egetemeir
-      position: Directora
+      position: ""
       brief: Socióloga de la Universidad de Augsburg (Alemania), con estudios complementarios en Geografía Social y Ciencia Política. Escaladora hace más de 10 años.
       image: /img/team/verena.png
 
